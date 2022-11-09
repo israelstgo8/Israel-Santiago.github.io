@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS del Header */
+/* 
+#header {   
+    background-color: blue;
+    height: 134px;
+    width: 100%;    
+    
+    }
+#header .container_Header{
+    width: 90%;
+    background-color: red;
+    margin: 0 auto;    
+}
+.container_Header .logo_Franco{
+    display: inline-block;
+    width: 200px;
+    height: 134px;
+}
+
+.container_Header .logo_Franco img{
+    width: 90%;
+    margin-block: 40px;
+    margin-left: 10px;
+    
+}
+
+.container_Header .slogan_Franco {
+    display: inline-block;
+    height: 134px;
+    background-color: brown;
+}
+
+.container_Header .slogan_Franco img,
+.container_Header .slogan_Franco h1 {   
+    width: 90%;
+    text-align: center;
+}
+
+.container_Header .slogan_Franco h1{
+    border: cornflowerblue solid;
+    font-size: 30px;
+       
+}
+
+.container_Header .slogan_Franco img{
+    border: solid 1px;
+} 
+
+*/
+
+/* CSS con Flex */
+#header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    justify-content: center;
+}
+
+.contenedor_Header {
+    display: flex;
+    width: 90%;
+    height: auto;
+    background-color: red;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.contenedor_Header .logo_Franco {
+    display: flex;
+    width: 20%;
+    height: auto;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contenedor_Header .logo_Franco img {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor_Header .slogan_Franco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    background-color: aquamarine;
+}
+
+.contenedor_Header .slogan_Franco h1{
+    background-color: red;
+    font-size: 30px;
+
+}
+
+.contenedor_Header .slogan_Franco img{
+    width: 60%;
+}
+
+
+
+.contenedor_Header .social_Header {
+    width: 10%;
+    background-color: rgb(203, 206, 11);
+}
